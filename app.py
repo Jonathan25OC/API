@@ -5,7 +5,9 @@ from nbconvert import HTMLExporter
 app = Flask(__name__)
 
 # Suponiendo que tienes una lista de notebooks
-notebooks = ["Arboles_de_Decision.ipynb"]
+notebooks = ["01_Numpy_3501.ipynb","2.1_Suport_Vector_Machine_3501.ipynb","3501_Creacion_de_Transformadores_y_Pipelines_Personalizados.ipynb","3501_Evaluacion-de-Resultados.ipynb",
+             "3501_Matplotlib.ipynb","3501_Pandas.ipynb","3501_Preparacion-del-DataSet.ipynb","3501_Regresion_Lineal.ipynb","3501_SVM.ipynb","3501_Visualizacion-de-Datos.ipynb","Arboles_de_Decision.ipynb","Regresion_Logistica.ipynb",
+             "Regresion_logistica_Diabetes.ipynb"]
 # Función para cargar un notebook y convertirlo a HTML
 def convert_notebook_to_html(notebook_path):
     try:
